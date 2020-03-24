@@ -2,7 +2,6 @@ import srgan
 import torch
 import torch.nn as nn
 import torch.optim as optim
-import itertools
 from train_utils import train, test
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader, Dataset
